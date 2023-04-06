@@ -1,0 +1,69 @@
+/* ESTILO PARA LA UBICACION */
+.ubicacion {
+	border: 2px solid #000;
+	padding: 20px;
+}
+
+.ubicacion p:hover {
+	color: #f00;
+	transition: all 0.3s ease-in-out;
+}
+
+.main .ubicacion .titulo {
+	text-align: center;
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.main .ubicacion .direccion {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.main .ubicacion .horarios {
+	float: right;
+	width: 50%;
+	text-align: right;
+	overflow: hidden;
+}
+
+.main .ubicacion .direccion .calle {
+	margin-bottom: 15px;
+}
+
+.main .ubicacion .horarios h4 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.main .ubicacion .horarios .entre-semana,
+.main .ubicacion .horarios .fin-semana {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.main .mapa {
+	width: 100%;
+	overflow: hidden;
+}
+
+.main .mapa iframe {
+	width: 100%;
+	max-height: 600px;
+}
+
+
+/*---------- footer ----------*/
+
+footer {
+	background: #000;
+}
+
+footer .copyright {
+	text-align: center;
+	color: #fff;
+}
